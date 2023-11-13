@@ -1,0 +1,318 @@
+@charset 'UTF-8';
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+	font-family: 'Courier Prime', monospace;
+	font-size: 12pt;
+}
+
+body {
+	line-height: 1.6rem;
+	background-color: #FFFFFF;
+
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	margin: 1.6rem 0;
+	color: #000000;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	color: #000000;
+}
+
+p {
+	font-size: 1rem;
+	font-weight: 400;
+	/* font-style: italic; */
+	margin: 0 0 1rem;
+	color: #000000;
+}
+em {
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+	color: #F35338;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+	font-weight: 700;pa
+}
+
+.active,
+.active:hover {
+	cursor: default;
+	text-decoration: none;
+	border-bottom: 8px solid #bc2429;
+}
+
+i {
+	font-style: italic;
+}
+
+header {
+	width: 100%;
+	background: url("../images/cabezote.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 1rem 0;
+	border-bottom: #F35338 solid 1rem;
+	
+}
+header img {
+	margin: 0 auto;
+	height: 12 0px;
+}
+
+nav {
+
+	padding: 0.6rem 0 0.5rem;
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.mapa {
+	width: 100%;
+	border-bottom: #F35338 solid 1rem;
+	background-color: #F35338;
+}
+
+
+
+
+
+main {
+	
+}
+
+
+
+
+
+main article {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 0 2rem;
+}
+
+
+
+
+main article.texto {
+	max-width: 1200px;
+}
+
+
+
+main article video {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+main article.imagen {
+	width: 100%;
+	background-color: #FEDC37;
+}
+main article.imagen iframe {
+	width: 100%;
+	height: 300px;
+}
+main article.imagen img{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+
+main article.imagen2 {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+main article.imagen2 img{
+	width: 100%;
+	margin: 0 auto -2rem;
+
+}
+
+main article.imagen div {
+	width: 80%;
+	max-width: 1200px;
+	margin: 1.4rem auto 0;
+
+	max-width: 1200px;
+}
+main article figcaption {
+	font-style: italic;
+	text-align: right;
+	margin: 0 20%;
+}
+
+
+
+main article.audio {
+	max-width: 1200px;
+	margin-top: 2rem;
+}
+
+
+
+
+main article.slide {
+	position: relative;
+	width: 100%;
+	padding: 2rem 0;
+	background-color: #B958D6;
+}
+main article.slide img {
+	margin: 0 auto;
+	width: 80%;
+}
+main article.slide button {
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	border: none;
+	top: 50%;
+	transform:translate(0%,-50%);
+	background-color: #B958D6;
+	font-size: 2rem;
+	color: #FEDC37;
+}
+main article.slide button:hover {
+	background-color: #FEDC37;
+	color: #B958D6;
+}
+main article.slide button.izquierda {
+	left: 0;
+}
+main article.slide button.derecha {
+	right: 0;
+}
+main article.slide div.texto {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+main article.slide div.texto iframe{
+	width: 100%;
+	max-width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+main article .tendedero {
+	text-align: center;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+main article .tendedero h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+main article .tendedero h1 {
+	font-size: 2rem;
+}
+
+.separador {
+	width: unset;
+	height: unset;
+
+}
+
+
+
+
+
+main article.imagenPeque {
+	width: 100%;
+	padding: 4rem 0 2rem;
+	background-color: #2E9B71;
+}
+main article.imagenPeque img{
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+main article.imagenPeque div {
+	width: 80%;
+	max-width: 1200px;
+	margin: 1.4rem auto 0;
+	max-width: 1200px;
+}
+
+
+
+
+main article.glosario {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-bottom: 2rem;
+	align-items: stretch;
+	max-width: 1200px;
+	border-bottom: solid 1px #000000;
+}
+main article.glosario img {
+	width: 200px;
+}
+main article.glosario div {
+	flex: 2 1 400px;
+}
+
+
+.dir {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+	width: 80%;
+	max-width: 1200px;	
+	margin: 0 auto;
+}
+
+main article.directorio {
+	flex: 1 1 300px;
+	border-bottom: solid 1px #000000;
+}
+main article.glosario img {
+	width: 200px;
+}
+main article.glosario div {
+	flex: 2 1 400px;
+}
+
+
+
+
+footer {
+	background-color: #FFFFFF;
+	padding: 4rem 1rem;
+}
+footer img{
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	html {
+		font-size: 16pt;
+	}
+	main article.slide {
+		padding: 4rem 0;
+	}
+}
